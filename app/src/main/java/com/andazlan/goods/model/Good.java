@@ -3,8 +3,10 @@ package com.andazlan.goods.model;
 public class Good {
     private String id, name, description, category;
     private int stock;
+    private long timestamp;
 
     public Good() {
+        this.timestamp = System.currentTimeMillis()/1000;
     }
 
     public Good(String id, String name, String description, String category, int stock) {
@@ -13,6 +15,7 @@ public class Good {
         this.description = description;
         this.category = category;
         this.stock = stock;
+        this.timestamp = System.currentTimeMillis()/1000;
     }
 
     public String getId() {
@@ -53,5 +56,13 @@ public class Good {
 
     public void setStock(int stock) {
         this.stock = stock;
+    }
+
+    public long getTimestamp() {
+        return timestamp;
+    }
+
+    public void setTimestamp(long timestamp) {
+        this.timestamp = timestamp;
     }
 }
