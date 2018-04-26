@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "43700969192",
+    "firebase_url": "https://my-goods-dfe97.firebaseio.com",
+    "project_id": "my-goods-dfe97",
+    "storage_bucket": "my-goods-dfe97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43700969192:android:c2744c2bc891dab3",
+        "android_client_info": {
+          "package_name": "com.andazlan.goods"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43700969192-projiv608gvqdslne8koi7a91jajfkrn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.andazlan.goods",
+            "certificate_hash": "cf1db84709c9e29ec7e8914b52fcca858ed48993"
+          }
+        },
+        {
+          "client_id": "43700969192-bj712qsbbglojlqvnnjbpefqe73djil0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbZbDvs700VR6y9UJCEQD5OAK-UiNC8zQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43700969192-bj712qsbbglojlqvnnjbpefqe73djil0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
